@@ -1,0 +1,52 @@
+/* tag selectors */
+
+body {
+  width: 40%;
+  margin: 50px auto;
+}
+
+h5 {
+  font-family: 'Merriweather', serif;
+  font-weight: bolder;
+}
+
+img {
+  width: 75%;
+}
+
+p {
+  font-size: 0.5rem;
+  font-weight: bold;
+}
+
+.factor {
+  padding-top: 50px;
+}
+
+
+.first-p {
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+.common {
+ margin-bottom: 30px;
+}
+
+#body-images {
+ margin-top: 30px;
+}
+
+@media (max-width: 995px) {
+  .small {
+    padding-top: 50px;
+  }
+
+  .first-p {
+    width: 75%;
+  }
+
+  .moon {
+    padding-top: 0;
+  }
+}
